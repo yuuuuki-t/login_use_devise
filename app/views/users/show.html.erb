@@ -1,0 +1,4 @@
+<%@user.items.each do |item|%>
+<!--itemsはhas_manyの部分に対応している。userに紐づいたいてitemの情報を取り出せる-->
+  <p><%=item.name%>:<%=item.price%></p>
+<%end%>
